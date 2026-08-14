@@ -4,7 +4,7 @@ import { CONTENT_TYPE_LIST } from "../../config/contentTypes";
 
 const NAV_LINKS = [
   { to: "/", label: "Bosh sahifa" },
-  { to: "/xonabod-haqida", label: "Xonabod haqida" },
+  { to: "/xonobod-haqida", label: "Xonobod haqida" },
   ...CONTENT_TYPE_LIST.map((c) => ({ to: `/${c.urlSlug}`, label: c.navLabel })),
   { to: "/tadbirlar", label: "Tadbirlar" },
   { to: "/media", label: "Media" },
@@ -17,7 +17,7 @@ export function Header() {
     <header className="sticky top-0 z-40 border-b border-stone-200/80 bg-stone-50/90 backdrop-blur">
       <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-3 sm:px-6">
         <Link to="/" className="flex items-baseline gap-2">
-          <span className="font-display text-2xl font-semibold tracking-tight text-pine-600">XONABOD</span>
+          <span className="font-display text-2xl font-semibold tracking-tight text-pine-600">XONOBOD</span>
           <span className="hidden font-mono text-[11px] uppercase tracking-[0.16em] text-gold-600 sm:inline">Turizm portali</span>
         </Link>
 
