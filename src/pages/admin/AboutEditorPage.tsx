@@ -8,7 +8,7 @@ import { Spinner } from "../../components/ui/Misc";
 import { useToast } from "../../components/ui/Toast";
 
 const SECTIONS: { key: keyof AboutContent; label: string }[] = [
-  { key: "history_html", label: "Xonabod tarixi" },
+  { key: "history_html", label: "Xonobod tarixi" },
   { key: "geography_html", label: "Geografik joylashuvi" },
   { key: "nature_html", label: "Tabiati" },
   { key: "climate_html", label: "Iqlimi" },
@@ -40,8 +40,8 @@ export default function AboutEditorPage() {
 
   return (
     <div className="mx-auto max-w-4xl">
-      <h1 className="font-display text-3xl text-pine-600">Xonabod haqida</h1>
-      <p className="mt-1 font-body text-sm text-ink-soft">Bu ma'lumot "Xonabod haqida" ommaviy sahifasida ko'rsatiladi.</p>
+      <h1 className="font-display text-3xl text-pine-600">Xonobod haqida</h1>
+      <p className="mt-1 font-body text-sm text-ink-soft">Bu ma'lumot "Xonobod haqida" ommaviy sahifasida ko'rsatiladi.</p>
 
       <div className="mt-6 space-y-8">
         <section className="card space-y-4 p-6">
