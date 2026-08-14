@@ -23,7 +23,7 @@ export default function EventsPage() {
 
   return (
     <div className="mx-auto max-w-7xl px-4 py-14 sm:px-6">
-      <p className="eyebrow">Xonabod</p>
+      <p className="eyebrow">Xonobod</p>
       <h1 className="mt-2 font-display text-4xl sm:text-5xl">Tadbirlar</h1>
 
       <div className="mt-8 flex gap-2">
