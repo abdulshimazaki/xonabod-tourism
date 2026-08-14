@@ -99,9 +99,9 @@ export default function HomePage() {
       <MountainDivider />
       <section className="bg-pine-900 py-16 text-center">
         <div className="mx-auto max-w-2xl px-4 sm:px-6">
-          <h2 className="font-display text-3xl text-white sm:text-4xl">Xonabod haqida ko'proq bilib oling</h2>
+          <h2 className="font-display text-3xl text-white sm:text-4xl">Xonobod haqida ko'proq bilib oling</h2>
           <p className="mt-3 font-body text-stone-100/80">Tarixi, tabiati, iqlimi va madaniyati bilan tanishing.</p>
-          <Link to="/xonabod-haqida" className="btn-gold mt-6 inline-flex">Batafsil</Link>
+          <Link to="/xonobod-haqida" className="btn-gold mt-6 inline-flex">Batafsil</Link>
         </div>
       </section>
     </div>
