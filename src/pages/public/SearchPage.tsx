@@ -34,7 +34,7 @@ export default function SearchPage() {
   return (
     <div className="mx-auto max-w-7xl px-4 py-14 sm:px-6">
       <p className="eyebrow">Qidiruv</p>
-      <h1 className="mt-2 font-display text-4xl sm:text-5xl">Xonabod bo'ylab qidiring</h1>
+      <h1 className="mt-2 font-display text-4xl sm:text-5xl">Xonobod bo'ylab qidiring</h1>
 
       <form
         onSubmit={(e) => {
