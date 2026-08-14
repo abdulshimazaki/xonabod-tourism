@@ -1,5 +1,5 @@
 // Signature layout element: a layered mountain-ridge silhouette used to
-// separate the hero from content and echo Xonabod's setting at the foothills
+// separate the hero from content and echo Xonobod's setting at the foothills
 // of the Fergana valley — not decorative, it anchors the site's sense of place.
 export function MountainDivider({ flip = false }: { flip?: boolean }) {
   return (
