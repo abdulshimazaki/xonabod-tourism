@@ -7,7 +7,7 @@ const FALLBACK_IMAGES: Record<string, string> = {
   dachas: "https://gjianimaiawdnyxovwvp.supabase.co/storage/v1/object/public/xonobod-media/media-center/4eb5dda1-a822-4387-b207-b7364f881ee1.jpg",
   restaurants: "https://gjianimaiawdnyxovwvp.supabase.co/storage/v1/object/public/xonobod-media/media-center/91c26f63-162a-4cf6-85a7-25da8cc3ba94.png",
   accommodations: "https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=800&auto=format&fit=crop",
-  attractions: "https://images.unsplash.com/photo-1518998053901-5348d3961a04?q=80&w=800&auto=format&fit=crop",
+  attractions: "https://gjianimaiawdnyxovwvp.supabase.co/storage/v1/object/public/xonobod-media/media-center/95da976c-d9df-4236-a34c-6de297a340e2.png",
 };
 
 export function CategoryGrid({ counts }: { counts: Record<string, number> }) {
