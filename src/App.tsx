@@ -40,7 +40,7 @@ export default function App() {
       {/* Public tourism website */}
       <Route element={<PublicLayout />}>
         <Route path="/" element={<HomePage />} />
-        <Route path="/xonabod-haqida" element={<AboutPage />} />
+        <Route path="/xonobod-haqida" element={<AboutPage />} />
         <Route path="/tadbirlar" element={<EventsPage />} />
         <Route path="/tadbirlar/:slug" element={<EventDetailPage />} />
         <Route path="/media" element={<MediaPage />} />
@@ -65,7 +65,7 @@ export default function App() {
         <Route path="tadbirlar" element={<EventsAdminListPage />} />
         <Route path="tadbirlar/:id" element={<EventFormPage />} />
         <Route path="media" element={<MediaManagerPage />} />
-        <Route path="xonabod-haqida" element={<AboutEditorPage />} />
+        <Route path="xonobod-haqida" element={<AboutEditorPage />} />
         <Route path="bosh-sahifa" element={<HomepageCmsPage />} />
         <Route path="sozlamalar" element={<SettingsPage />} />
         <Route path="foydalanuvchilar" element={<UsersPage />} />
