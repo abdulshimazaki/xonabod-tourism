@@ -3,7 +3,7 @@ import { CONTENT_TYPE_LIST } from "../../config/contentTypes";
 
 const FALLBACK_IMAGES: Record<string, string> = {
   recreation_places: "https://gjianimaiawdnyxovwvp.supabase.co/storage/v1/object/public/xonobod-media/media-center/953378ed-8557-4f28-bb69-e0d5d376e55d.png",
-  sanatoriums: "https://images.unsplash.com/photo-1600334129128-685c5582fd35?q=80&w=800&auto=format&fit=crop",
+  sanatoriums: "https://gjianimaiawdnyxovwvp.supabase.co/storage/v1/object/public/xonobod-media/media-center/b927e85b-b522-49d3-991d-436de0c07744.jpg",
   dachas: "https://images.unsplash.com/photo-1449158743715-0a90ebb6d2d8?q=80&w=800&auto=format&fit=crop",
   restaurants: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?q=80&w=800&auto=format&fit=crop",
   accommodations: "https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=800&auto=format&fit=crop",
