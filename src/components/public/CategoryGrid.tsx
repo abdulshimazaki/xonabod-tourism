@@ -14,7 +14,7 @@ export function CategoryGrid({ counts }: { counts: Record<string, number> }) {
   return (
     <section className="mx-auto max-w-7xl px-4 py-16 sm:px-6">
       <p className="eyebrow">Bo'limlar</p>
-      <h2 className="mt-2 font-display text-3xl sm:text-4xl">Xonabodni qayerdan boshlaymiz?</h2>
+      <h2 className="mt-2 font-display text-3xl sm:text-4xl">Xonobodni qayerdan boshlaymiz?</h2>
 
       <div className="mt-8 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
         {CONTENT_TYPE_LIST.map((c) => (
