@@ -36,7 +36,7 @@ export default function LoginPage() {
   return (
     <div className="flex min-h-screen items-center justify-center bg-pine-900 px-4">
       <div className="w-full max-w-sm rounded-3xl bg-white p-8 shadow-xl">
-        <span className="font-display text-2xl font-semibold text-pine-600">XONABOD</span>
+        <span className="font-display text-2xl font-semibold text-pine-600">XONOBOD</span>
         <p className="mt-1 font-mono text-[11px] uppercase tracking-wide text-gold-600">Admin panel</p>
 
         <form onSubmit={handleSubmit} className="mt-6 space-y-4">
