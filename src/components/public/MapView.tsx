@@ -22,12 +22,12 @@ export type MapMarkerData = {
   color: string;
 };
 
-const XONABOD_CENTER: [number, number] = [40.7386, 72.3184]; // Andijon viloyati atrofi (taxminiy markaz)
+const XONOBOD_CENTER: [number, number] = [40.7386, 72.3184]; // Andijon viloyati atrofi (taxminiy markaz)
 
 export function MapView({ markers, height = "560px" }: { markers: MapMarkerData[]; height?: string }) {
   return (
     <div style={{ height }} className="overflow-hidden rounded-3xl border border-stone-200">
-      <MapContainer center={XONABOD_CENTER} zoom={11} scrollWheelZoom={false} style={{ height: "100%", width: "100%" }}>
+      <MapContainer center={XONOBOD_CENTER} zoom={11} scrollWheelZoom={false} style={{ height: "100%", width: "100%" }}>
         <TileLayer
           attribution={'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> hissa qo\'shuvchilari'}
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
