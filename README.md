@@ -1,4 +1,4 @@
-# Xonabod — Turizm portali
+# Xonobod — Turizm portali
 
 To'liq ishlaydigan turizm sayti va admin panel (CMS): **React + TypeScript + Tailwind CSS** (frontend) + **Supabase** (Postgres ma'lumotlar bazasi, autentifikatsiya, fayl saqlash).
 
@@ -23,7 +23,7 @@ src/
     ui/                     # Rasm/video yuklovchi, RichTextEditor, Toast, va h.k.
   pages/
     public/                 # Bosh sahifa, umumiy Listing/Detail sahifalar, Media,
-                             # Tadbirlar, Xarita, Qidiruv, Xonabod haqida
+                             # Tadbirlar, Xarita, Qidiruv, Xonobod haqida
     admin/                  # Login, Dashboard, generic CRUD List/Form, Media
                              # menejeri, Sozlamalar, Foydalanuvchilar
 supabase/
@@ -61,7 +61,7 @@ yangi kategoriya yaratish uchun asosan shu bitta faylni tahrirlash kifoya.
    - Har bir jadval uchun **Row Level Security** siyosatlari:
      - Oddiy tashrif buyuruvchilar faqat **nashr qilingan** (`published = true`) obyektlarni o'qiy oladi
      - Ro'yxatdan o'tgan administratorlar hammasini o'qiy va tahrirlay oladi
-   - `xonabod-media` nomli ommaviy Storage bucket (rasm/video fayllar uchun)
+   - `xonobod-media` nomli ommaviy Storage bucket (rasm/video fayllar uchun)
 3. (Ixtiyoriy) Namuna ma'lumotlar bilan sinab ko'rish uchun `supabase/seed.sql` faylini ham shu tarzda ishga tushiring.
    > Namuna ma'lumotlardagi barcha nomlar, manzillar va telefon raqamlari **haqiqiy emas** — ular faqat interfeysni sinash uchun. Nashr qilishdan oldin haqiqiy ma'lumotlar bilan almashtiring yoki admin paneldan o'chirib tashlang.
 
@@ -70,7 +70,7 @@ yangi kategoriya yaratish uchun asosan shu bitta faylni tahrirlash kifoya.
 ## 4. Birinchi administrator hisobini yaratish
 
 1. Supabase konsolida **Authentication → Users → Add user** ga o'ting.
-2. Email va parol kiriting (masalan, `admin@xonabod.uz`).
+2. Email va parol kiriting (masalan, `admin@xonobod.uz`).
 3. **Muhim:** `schema.sql` da o'rnatilgan trigger tufayli, tizimda yaratilgan **birinchi** foydalanuvchi avtomatik ravishda `super_admin` roli bilan `admin_users` jadvaliga qo'shiladi. Keyingi foydalanuvchilar `editor` roli bilan qo'shiladi — ularning rolini keyinchalik `/admin/foydalanuvchilar` sahifasidan (yoki to'g'ridan-to'g'ri SQL orqali) `content_manager` yoki `super_admin` ga o'zgartirishingiz mumkin.
 
 ---
