@@ -1,5 +1,5 @@
 -- =========================================================================
--- XONABOD TURIZM PORTALI — Supabase database schema
+-- XONOBOD TURIZM PORTALI — Supabase database schema
 -- Run this in: Supabase Dashboard → SQL Editor → New query → Run
 -- =========================================================================
 
@@ -170,7 +170,7 @@ create table media (
 );
 
 -- -------------------------------------------------------------------------
--- about_content — single row, "Xonabod haqida" page
+-- about_content — single row, "Xonobod haqida" page
 -- -------------------------------------------------------------------------
 create table about_content (
   id uuid primary key default gen_random_uuid(),
@@ -191,7 +191,7 @@ create trigger trg_updated_at before update on about_content for each row execut
 -- -------------------------------------------------------------------------
 create table site_settings (
   id uuid primary key default gen_random_uuid(),
-  site_name text not null default 'XONABOD',
+  site_name text not null default 'XONOBOD',
   tagline text not null default 'Tabiat, hordiq va turizm maskani',
   logo_url text,
   favicon_url text,
@@ -203,9 +203,9 @@ create table site_settings (
   seo_default_description text,
   hero_image text,
   hero_video_url text,
-  hero_title text not null default 'XONABOD',
+  hero_title text not null default 'XONOBOD',
   hero_subtitle text not null default 'Tabiat, hordiq va unutilmas taassurotlar',
-  hero_cta_primary_label text not null default 'Xonabodni kashf eting',
+  hero_cta_primary_label text not null default 'Xonobodni kashf eting',
   hero_cta_secondary_label text not null default 'Dam olish joylarini ko''rish',
   featured_categories text[] not null default '{}',
   featured_item_ids uuid[] not null default '{}',
@@ -278,17 +278,17 @@ create policy "admin_update_roles" on admin_users for update using (
 -- uploaded images/videos (see STORAGE_BUCKET in src/lib/supabase.ts).
 -- =========================================================================
 insert into storage.buckets (id, name, public)
-values ('xonabod-media', 'xonabod-media', true)
+values ('xonobod-media', 'xonobod-media', true)
 on conflict (id) do nothing;
 
 create policy "public_read_media_bucket" on storage.objects
-  for select using (bucket_id = 'xonabod-media');
+  for select using (bucket_id = 'xonobod-media');
 
 create policy "admin_upload_media_bucket" on storage.objects
-  for insert with check (bucket_id = 'xonabod-media' and is_admin());
+  for insert with check (bucket_id = 'xonobod-media' and is_admin());
 
 create policy "admin_delete_media_bucket" on storage.objects
-  for delete using (bucket_id = 'xonabod-media' and is_admin());
+  for delete using (bucket_id = 'xonobod-media' and is_admin());
 
 -- =========================================================================
 -- Seed the two required singleton rows so the app has something to read
@@ -298,4 +298,4 @@ create policy "admin_delete_media_bucket" on storage.objects
 insert into about_content (history_html, geography_html, nature_html, climate_html, culture_html, tourism_potential_html)
 values ('', '', '', '', '', '');
 
-insert into site_settings (site_name, tagline) values ('XONABOD', 'Tabiat, hordiq va turizm maskani');
+insert into site_settings (site_name, tagline) values ('XONOBOD', 'Tabiat, hordiq va turizm maskani');
