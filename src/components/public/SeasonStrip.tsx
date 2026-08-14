@@ -1,4 +1,4 @@
-// Signature content device: Xonabod's tourism appeal genuinely shifts by
+// Signature content device: Xonobod's tourism appeal genuinely shifts by
 // season (bahorda gullash, yozda dam olish, kuzda hosil bayramlari, qishda
 // sanatoriy dam olish) — so a season strip encodes real information, unlike
 // decorative numbered steps.
@@ -37,7 +37,7 @@ export function SeasonStrip() {
   return (
     <section className="mx-auto max-w-7xl px-4 py-16 sm:px-6">
       <p className="eyebrow">Fasllar bo'yicha</p>
-      <h2 className="mt-2 font-display text-3xl sm:text-4xl">Xonabodga qachon tashrif buyurish kerak?</h2>
+      <h2 className="mt-2 font-display text-3xl sm:text-4xl">Xonobodga qachon tashrif buyurish kerak?</h2>
       <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
         {SEASONS.map((s) => (
           <div key={s.key} className="card p-6">
