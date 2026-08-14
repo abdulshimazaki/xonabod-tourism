@@ -48,7 +48,7 @@ export default function MapPage() {
 
   return (
     <div className="mx-auto max-w-7xl px-4 py-14 sm:px-6">
-      <p className="eyebrow">Xonabod</p>
+      <p className="eyebrow">Xonobod</p>
       <h1 className="mt-2 font-display text-4xl sm:text-5xl">Interaktiv xarita</h1>
       <p className="mt-2 font-body text-ink-soft">Barcha turizm obyektlarini xaritada toping va filtrlang.</p>
 
