@@ -5,7 +5,7 @@ const FALLBACK_IMAGES: Record<string, string> = {
   recreation_places: "https://gjianimaiawdnyxovwvp.supabase.co/storage/v1/object/public/xonobod-media/media-center/953378ed-8557-4f28-bb69-e0d5d376e55d.png",
   sanatoriums: "https://gjianimaiawdnyxovwvp.supabase.co/storage/v1/object/public/xonobod-media/media-center/b927e85b-b522-49d3-991d-436de0c07744.jpg",
   dachas: "https://gjianimaiawdnyxovwvp.supabase.co/storage/v1/object/public/xonobod-media/media-center/4eb5dda1-a822-4387-b207-b7364f881ee1.jpg",
-  restaurants: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?q=80&w=800&auto=format&fit=crop",
+  restaurants: "https://gjianimaiawdnyxovwvp.supabase.co/storage/v1/object/public/xonobod-media/media-center/91c26f63-162a-4cf6-85a7-25da8cc3ba94.png",
   accommodations: "https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=800&auto=format&fit=crop",
   attractions: "https://images.unsplash.com/photo-1518998053901-5348d3961a04?q=80&w=800&auto=format&fit=crop",
 };
