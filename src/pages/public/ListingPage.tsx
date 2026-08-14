@@ -29,7 +29,7 @@ export default function ListingPage() {
   return (
     <div>
       <section className="bg-pine-900 pb-16 pt-24 text-center">
-        <p className="eyebrow text-gold-100">Xonabod</p>
+        <p className="eyebrow text-gold-100">Xonobod</p>
         <h1 className="mt-2 font-display text-4xl text-white sm:text-5xl">{config.pluralLabel}</h1>
         <p className="mx-auto mt-3 max-w-xl font-body text-stone-100/80">{config.description}</p>
       </section>
