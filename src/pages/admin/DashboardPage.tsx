@@ -47,7 +47,7 @@ export default function DashboardPage() {
   return (
     <div>
       <h1 className="font-display text-3xl text-pine-600">Dashboard</h1>
-      <p className="mt-1 font-body text-sm text-ink-soft">Xonabod turizm portali statistikasi.</p>
+      <p className="mt-1 font-body text-sm text-ink-soft">Xonobod turizm portali statistikasi.</p>
 
       <div className="mt-6 grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-5">
         <StatCard label="Jami obyektlar" value={totalObjects} tone="gold" />
