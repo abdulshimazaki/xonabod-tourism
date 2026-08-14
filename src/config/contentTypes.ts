@@ -34,7 +34,7 @@ export const CONTENT_TYPES: Record<ContentTypeKey, ContentTypeConfig> = {
     pluralLabel: "Dam olish maskanlari",
     addLabel: "+ Yangi dam olish maskani qo'shish",
     description:
-      "Xonabod atrofidagi tabiat qo'ynidagi dam olish va hordiq maskanlari.",
+      "Xonobod atrofidagi tabiat qo'ynidagi dam olish va hordiq maskanlari.",
     mapColor: "#2E6B57",
     mapEmoji: "🟢",
     amenityOptions: ["Wi-Fi", "Avtoturargoh", "Oshxona", "Bolalar maydonchasi", "Basseyn", "Mangal joyi"],
@@ -120,7 +120,7 @@ export const CONTENT_TYPES: Record<ContentTypeKey, ContentTypeConfig> = {
     singularLabel: "Diqqatga sazovor joy",
     pluralLabel: "Diqqatga sazovor joylar",
     addLabel: "+ Yangi obyekt qo'shish",
-    description: "Xonabodning tarixiy, tabiiy va madaniy diqqatga sazovor joylari.",
+    description: "Xonobodning tarixiy, tabiiy va madaniy diqqatga sazovor joylari.",
     mapColor: "#B5502F",
     mapEmoji: "🔴",
     categoryOptions: ["Tarixiy obidalar", "Tabiiy maskanlar", "Ziyoratgohlar", "Madaniy obyektlar", "Bog'lar", "Sayr qilish joylari"],
