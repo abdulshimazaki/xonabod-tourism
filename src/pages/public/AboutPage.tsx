@@ -5,7 +5,7 @@ import { Spinner } from "../../components/ui/Misc";
 import { MountainDivider } from "../../components/layout/MountainDivider";
 
 const SECTIONS: { key: keyof AboutContent; label: string }[] = [
-  { key: "history_html", label: "Xonabod tarixi" },
+  { key: "history_html", label: "Xonobod tarixi" },
   { key: "geography_html", label: "Geografik joylashuvi" },
   { key: "nature_html", label: "Tabiati" },
   { key: "climate_html", label: "Iqlimi" },
@@ -29,11 +29,11 @@ export default function AboutPage() {
   return (
     <div>
       <section className="relative flex h-[46vh] items-end overflow-hidden bg-pine-900">
-        {about?.hero_image && <img src={about.hero_image} alt="Xonabod" className="absolute inset-0 h-full w-full object-cover opacity-60" />}
+        {about?.hero_image && <img src={about.hero_image} alt="Xonobod" className="absolute inset-0 h-full w-full object-cover opacity-60" />}
         <div className="absolute inset-0 bg-gradient-to-t from-pine-900 to-transparent" />
         <div className="relative z-10 mx-auto w-full max-w-7xl px-4 pb-10 sm:px-6">
-          <p className="eyebrow text-gold-100">Xonabod</p>
-          <h1 className="mt-2 font-display text-4xl text-white sm:text-5xl">Xonabod haqida</h1>
+          <p className="eyebrow text-gold-100">Xonobod</p>
+          <h1 className="mt-2 font-display text-4xl text-white sm:text-5xl">Xonobod haqida</h1>
         </div>
       </section>
       <MountainDivider flip />
